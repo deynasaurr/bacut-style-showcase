@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  export default defineConfig(({ mode }) => ({
-  …,
-  base: '/bacut-style-showcase/', // Replace with your actual repo name
+
+  // IMPORTANT: add this for GitHub Pages
+  base: "/bacut-style-showcase/",
 }));
