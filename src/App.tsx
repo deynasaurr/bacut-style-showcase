@@ -31,7 +31,7 @@ const App = () => {
           <TooltipProvider>
             <Toaster />
             <Sonner />
-            <BrowserRouter>
+            <BrowserRouter basename="bacut-style-showcase">
               <div className="flex flex-col min-h-screen">
                 <Navbar searchQuery={searchQuery} onSearchChange={setSearchQuery} />
                 <main className="flex-1">
