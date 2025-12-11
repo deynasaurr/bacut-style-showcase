@@ -41,9 +41,9 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { name: 'T-Shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80', link: '/shop?category=T-Shirts' },
-            { name: 'Underwear', image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=500&q=80', link: '/shop?category=Underwear' },
+            { name: 'Underwear', image: '/bacut-style-showcase/laces.jpg', link: '/shop?category=Underwear' },
             { name: 'Shorts', image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80', link: '/shop?category=Shorts' },
-            { name: 'Sweaters', image: 'https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500&q=80', link: '/shop?category=Sweaters' },
+            { name: 'Sweaters', image: '/bacut-style-showcase/cash.jpg', link: '/shop?category=Sweaters' },
           ].map((category) => (
             <Link key={category.name} to={category.link} className="group">
               <div className="aspect-square overflow-hidden rounded-sm bg-secondary relative">
